@@ -27,7 +27,12 @@ Implement as the following steps and refer attached Illustration 1:
 21. Go to setting and scale the display by 200%, as attached __*figure 20*__
 22. Open the terminal and type the command: `sudo apt update` to updated the package, as attached __*figure 21*__
 23. Type the command: `sudo apt install spice-vdagent spice-webdavd` to install the tools allowing access to shared directories of Host OS, and enableing to copy and paste Clipboard Memory between guest and Host OS, as attached __*figure 22*__
-23. Finisished the tools installation then type the command: `sudo reboot` to reboot the virtual machine, as attached __*figure 23*__
+23. Type the command: `sudo apt install openssh-server` to install SSH Server, as attached __*figure 23*__
+24. Type the command: `sudo systemctl status ssh` to check SSH Service is Active and Running, as attached __*figure 24*__
+25. Type the command: `sudo ss -tulpn | grep ssh` to find out the SSH server port, as attached __*figure 25*__
+26. Type the command: `ifconfig` to find out which IP the virtual machine is connected to the physical machine through.
+    **Note**: The IP is not necessarily the same in everyone's virtual machine, as attached __*figure 26*__
+27. Type the command: `ssh -X trista-csee@192.168.64.3` to SSH the remote Server, as attached __*figure 27*__
 
 ---
 
