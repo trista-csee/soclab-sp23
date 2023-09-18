@@ -24,7 +24,7 @@
 
 4. Type the command: `cd ./Xilinx_Unified_2022.1_0420_0327/` to extract the installer.
    Type the command: `sudo apt intall libtinfo5` and `sudo apt intall libncurses5` to install libraries.
-   **Note:** Avoid final processing hanging at *"Generating installed device list"*.
+   **Note:** Avoid final processing hanging at *"Generating installed device list"*.      
    <img width="740" alt="3-7-0" src="https://github.com/trista-csee/soclab-sp23/assets/137249599/380fbbdd-5a4a-4274-a38c-25cbdf7460d4">
    <img width="1048" alt="3-7-1" src="https://github.com/trista-csee/soclab-sp23/assets/137249599/c1b2b956-4747-40d3-a290-76d708460ee8">
    <img width="1046" alt="3-7-2" src="https://github.com/trista-csee/soclab-sp23/assets/137249599/d6d78e46-17da-4b2c-bc03-b3c450e15913">
